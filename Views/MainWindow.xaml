@@ -1,0 +1,52 @@
+<Window x:Class="WpfCascadeApp.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCascadeApp.Views"
+        xmlns:converters="clr-namespace:WpfCascadeApp.Converters"
+        mc:Ignorable="d"
+        Title="WPF Cascade App" Height="400" Width="400">
+    
+    <Window.Resources>
+        <converters:NotNullToBoolConverter x:Key="NotNullToBoolConverter"/>
+    </Window.Resources>
+    
+    <StackPanel Margin="10">
+        <TextBlock Text="Город" Margin="0,0,0,5"/>
+        <ComboBox ItemsSource="{Binding Cities}" 
+                  SelectedItem="{Binding SelectedCity}"
+                  DisplayMemberPath="Name"
+                  Margin="0,0,0,10"/>
+        
+        <TextBlock Text="Автосервис" Margin="0,0,0,5"/>
+        <ComboBox ItemsSource="{Binding FilteredWorkshops}" 
+                  SelectedItem="{Binding SelectedWorkshop}"
+                  DisplayMemberPath="Name"
+                  IsEnabled="{Binding SelectedCity, Converter={StaticResource NotNullToBoolConverter}}"
+                  Margin="0,0,0,10"/>
+        
+        <TextBlock Text="Сотрудник" Margin="0,0,0,5"/>
+        <ComboBox ItemsSource="{Binding FilteredEmployees}" 
+                  SelectedItem="{Binding SelectedEmployee}"
+                  DisplayMemberPath="Name"
+                  IsEnabled="{Binding SelectedWorkshop, Converter={StaticResource NotNullToBoolConverter}}"
+                  Margin="0,0,0,10"/>
+        
+        <TextBlock Text="Бригада" Margin="0,0,0,5"/>
+        <ComboBox ItemsSource="{Binding Brigades}" 
+                  SelectedItem="{Binding SelectedBrigade}"
+                  Margin="0,0,0,10"/>
+        
+        <TextBlock Text="Смена" Margin="0,0,0,5"/>
+        <TextBox Text="{Binding Shift, UpdateSourceTrigger=PropertyChanged}"
+                 Margin="0,0,0,20"/>
+        
+        <Button Content="Сохранить" 
+                Command="{Binding SaveCommand}"
+                Height="30"
+                Background="#007ACC"
+                Foreground="White"
+                FontWeight="Bold"/>
+    </StackPanel>
+</Window>

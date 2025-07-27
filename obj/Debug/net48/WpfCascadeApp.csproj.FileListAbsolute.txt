@@ -1,0 +1,17 @@
+C:\Users\User\Downloads\WpfCascadeApp\bin\Debug\net48\WpfCascadeApp.exe.config
+C:\Users\User\Downloads\WpfCascadeApp\bin\Debug\net48\WpfCascadeApp.exe
+C:\Users\User\Downloads\WpfCascadeApp\bin\Debug\net48\WpfCascadeApp.pdb
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\Views\MainWindow.g.cs
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\App.g.cs
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp_MarkupCompile.cache
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp_MarkupCompile.lref
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\Views\MainWindow.baml
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.g.resources
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.AssemblyInfo.cs
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.exe
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.pdb
