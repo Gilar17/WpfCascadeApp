@@ -15,3 +15,4 @@ C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.AssemblyInfo
 C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.csproj.CoreCompileInputs.cache
 C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.exe
 C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.pdb
+C:\Users\User\Downloads\WpfCascadeApp\obj\Debug\net48\WpfCascadeApp.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfCascadeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31f26770c38d23ff64d2c33b79d5c0dc9b9d4450")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfCascadeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfCascadeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
